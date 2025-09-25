@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<body>
+    <p id="sesi1"> </p>
+
+    <script>
+        let mtk = 85;
+        let english =  90;
+        let ipa = 78;
+
+        let rata2 = (mtk + english + ipa) / 3;
+
+        let rata2bulat = Math.round(rata2);
+
+        if (rata2 >= 80) {
+            teks = "Anda Lulus!"
+        } else {
+            teks = "Anda Tidak Lulus oawkowakok"
+        }
+
+        document.getElementById("sesi1").innerHTML = 
+        "Rata - rata nilai anda: " + rata2bulat + "<br>" +
+        "Status: " + teks
+        ;
+    </script>
+
+</body>
+</html>
